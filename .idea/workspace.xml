@@ -182,12 +182,12 @@
     <list>
       <item itemvalue="Application.HelloApplication" />
       <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.UploadFileTest" />
       <item itemvalue="Spring Boot.ReggieApplication" />
-      <item itemvalue="Spring Boot.ReggleApplication" />
-      <item itemvalue="Spring Boot.ReggleStart" />
       <item itemvalue="Spring Boot.ReggieApplication (1)" />
       <item itemvalue="Spring Boot.ReggieApplication (2)" />
-      <item itemvalue="JUnit.UploadFileTest" />
+      <item itemvalue="Spring Boot.ReggleApplication" />
+      <item itemvalue="Spring Boot.ReggleStart" />
     </list>
     <recent_temporary>
       <list>
