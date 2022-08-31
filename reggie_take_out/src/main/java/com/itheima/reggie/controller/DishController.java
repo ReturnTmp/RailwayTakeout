@@ -16,6 +16,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -47,6 +48,38 @@ public class DishController {
         dishService.saveWithFlavor(dishDto);
 
         return R.success("新增菜品成功");
+    }
+
+    @PostMapping("/status/{flag}")
+    public R<String> update(@PathVariable(value = "flag")int falg,@RequestParam(value = "ids") List<Long> ids){
+
+        for(int i=0;i<ids.size();i++){
+            log.info(ids.get(i).toString());
+            Dish dish=new Dish();
+            dish.setId(ids.get(i));
+            if(falg==0){
+                dish.setStatus(0);
+            }else {
+                dish.setStatus(1);
+            }
+            dish.setCreateTime(LocalDateTime.now());
+            dishService.updateById(dish);
+            log.info(dish.toString());
+        }
+        return R.success("菜品状态更改成功");
+    }
+
+    /**
+     * 根据id删除菜品
+     * @param ids
+     * @return
+     */
+    @DeleteMapping
+    public R<String>delete(@RequestParam(value = "ids") List<Long> ids){
+        log.info("删除菜品,id为:{}",ids);
+
+        dishService.removeDishByIds(ids);
+        return R.success("菜品信息删除成功");
     }
 
     /**

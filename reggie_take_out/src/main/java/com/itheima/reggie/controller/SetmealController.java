@@ -15,6 +15,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -93,6 +94,25 @@ public class SetmealController {
 
         dtoPage.setRecords(list);
         return R.success(dtoPage);
+    }
+
+    @PostMapping("/status/{flag}")
+    public R<String> update(@PathVariable(value = "flag")int falg,@RequestParam(value = "ids") List<Long> ids){
+
+        for(int i=0;i<ids.size();i++){
+            log.info(ids.get(i).toString());
+            Setmeal setmeal=new Setmeal();
+            setmeal.setId(ids.get(i));
+            if(falg==0){
+                setmeal.setStatus(0);
+            }else {
+                setmeal.setStatus(1);
+            }
+            setmeal.setCreateTime(LocalDateTime.now());
+            setmealService.updateById(setmeal);
+            log.info(setmeal.toString());
+        }
+        return R.success("套餐状态修改成功");
     }
 
     /**

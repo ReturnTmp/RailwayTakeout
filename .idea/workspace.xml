@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32f3c755-28c1-4d39-8cd2-5607cbaf0fb6" name="Changes" comment="">
+    <list default="true" id="32f3c755-28c1-4d39-8cd2-5607cbaf0fb6" name="Changes" comment="添加reggie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -35,6 +40,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -60,7 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/reggie_take_out" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -86,7 +94,7 @@
       <recent name="com.example.main" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ReggieApplication (2)">
+  <component name="RunManager" selected="Spring Boot.ReggieApplication">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -132,22 +140,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReggieApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="reggie" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.reggie.ReggieApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReggieApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="reggie_take_out" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.reggie.ReggieApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReggieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="reggle" />
+      <module name="reggie_take_out" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.itheima.reggie.*" />
@@ -155,26 +149,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.reggie.ReggieApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReggleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="reggle" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.reggle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.reggle.ReggleApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReggleStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="reggle" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ReggleStart" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,16 +159,10 @@
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.UploadFileTest" />
       <item itemvalue="Spring Boot.ReggieApplication" />
-      <item itemvalue="Spring Boot.ReggieApplication (1)" />
-      <item itemvalue="Spring Boot.ReggieApplication (2)" />
-      <item itemvalue="Spring Boot.ReggleApplication" />
-      <item itemvalue="Spring Boot.ReggleStart" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UploadFileTest" />
-        <item itemvalue="Spring Boot.ReggleApplication" />
-        <item itemvalue="Spring Boot.ReggleStart" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -210,6 +179,7 @@
       <workItem from="1661773902280" duration="3935000" />
       <workItem from="1661783498196" duration="1618000" />
       <workItem from="1661814419384" duration="51426000" />
+      <workItem from="1661958601543" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="添加main模块">
       <created>1661774249446</created>
@@ -260,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661931355012</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加reggie">
+      <created>1661958854166</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661958854166</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
