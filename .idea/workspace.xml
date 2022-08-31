@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32f3c755-28c1-4d39-8cd2-5607cbaf0fb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/target/classes/com/example/main/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/target/classes/com/example/main/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/target/classes/com/example/main/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/reggle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/ReggleApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/common/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/entity/AddressBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/entity/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/entity/Dish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/entity/DishFlavor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/entity/OrderDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/entity/Orders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/entity/Setmeal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/entity/SetmealDish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/entity/ShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/mapper/EmployeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/java/com/itheima/reggle/service/impl/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/api/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/api/combo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/api/food.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/api/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/api/member.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/api/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/404-images/404-cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/404-images/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/btn_back@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/btn_clean@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/btn_close@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/icon_index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/icon_upload@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/jine_m-2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/renshu@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/xiangmujine@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/img_brand01@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/img_denglu_bj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/login/login-l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/login/login-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/login/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/noImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/js/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/js/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/category/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/combo/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/combo/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/food/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/food/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/login/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/member/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/member/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/order/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/plugins/axios/axios.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/plugins/element-ui/fonts/element-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/plugins/element-ui/fonts/element-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/plugins/element-ui/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/plugins/element-ui/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/plugins/vue/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/fonts/element-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/fonts/element-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/demo_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/iconfont.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/api/address.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/api/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/api/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/api/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/fonts/DIN-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/fonts/DIN-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/fonts/PingFangSC-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/fonts/PingFangSC-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/fonts/PingFangSC-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/cart_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/checked_false.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/checked_true.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/demo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/demo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/demo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/demo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/favico.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/headPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/locations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/mainBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/money.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/noImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/no_order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/no_wifi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/orders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/subtract.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/images/women.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/js/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/js/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/js/vant.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/page/add-order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/page/address-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/page/address.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/page/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/page/no-wify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/page/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/page/pay-success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/page/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/add-order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/address-edit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/address.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/no-wify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/pay-success.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/user.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/vant.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/api/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/api/combo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/api/food.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/api/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/api/member.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/api/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/404-images/404-cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/404-images/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/btn_back@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/btn_clean@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/btn_close@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/icon_index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/icon_upload@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/jine_m-2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/renshu@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/xiangmujine@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/img_brand01@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/img_denglu_bj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/login/login-l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/login/login-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/login/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/images/noImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/js/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/js/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/page/category/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/page/combo/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/page/combo/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/page/food/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/page/food/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/page/login/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/page/member/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/page/member/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/page/order/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/plugins/axios/axios.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/plugins/element-ui/fonts/element-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/plugins/element-ui/fonts/element-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/plugins/element-ui/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/plugins/element-ui/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/plugins/vue/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/fonts/element-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/fonts/element-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/demo_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/iconfont.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/backend/styles/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/com/itheima/reggle/ReggleApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/com/itheima/reggle/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/api/address.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/api/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/api/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/api/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/fonts/DIN-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/fonts/DIN-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/fonts/PingFangSC-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/fonts/PingFangSC-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/fonts/PingFangSC-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/cart_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/checked_false.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/checked_true.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/demo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/demo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/demo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/demo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/favico.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/headPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/locations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/mainBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/money.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/noImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/no_order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/no_wifi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/orders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/subtract.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/images/women.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/js/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/js/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/js/vant.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/page/add-order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/page/address-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/page/address.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/page/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/page/no-wify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/page/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/page/pay-success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/page/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/styles/add-order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/styles/address-edit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/styles/address.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/styles/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/styles/no-wify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/styles/order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/styles/pay-success.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/styles/user.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie/target/classes/front/styles/vant.min.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2E1q0FuaPhwmmyIbari2FKnhLoD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaMethodFindUsagesOptions.isImplementingMethods" value="true" />
+    <property name="JavaMethodFindUsagesOptions.isSearchForTextOccurrences" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/reggie_take_out" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyWork\java实训\waimai\reggie_take_out" />
+      <recent name="D:\MyWork\java实训\waimai" />
+      <recent name="D:\MyWork\java实训\waimai\reggie" />
+      <recent name="D:\MyWork\java实训\waimai\reggie\src\main\java\com\itheima\" />
+      <recent name="D:\MyWork\java实训\waimai\reggle\src\main\java\com\itheima\reggle\entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyWork\java实训\waimai\main\src\main\resources\com\example\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ReggieApplication (2)">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.main.App" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.main.HelloApplication" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reggie_take_out" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.UploadFileTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReggieApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reggie" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.reggie.ReggieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReggieApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reggie_take_out" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.reggie.ReggieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReggieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="reggle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.reggie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.reggie.ReggieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReggleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="reggle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.reggle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.reggle.ReggleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReggleStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="reggle" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ReggleStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HelloApplication" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Spring Boot.ReggieApplication" />
+      <item itemvalue="Spring Boot.ReggleApplication" />
+      <item itemvalue="Spring Boot.ReggleStart" />
+      <item itemvalue="Spring Boot.ReggieApplication (1)" />
+      <item itemvalue="Spring Boot.ReggieApplication (2)" />
+      <item itemvalue="JUnit.UploadFileTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UploadFileTest" />
+        <item itemvalue="Spring Boot.ReggleApplication" />
+        <item itemvalue="Spring Boot.ReggleStart" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32f3c755-28c1-4d39-8cd2-5607cbaf0fb6" name="Changes" comment="" />
+      <created>1661773213454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661773213454</updated>
+      <workItem from="1661773217261" duration="665000" />
+      <workItem from="1661773902280" duration="3935000" />
+      <workItem from="1661783498196" duration="1618000" />
+      <workItem from="1661814419384" duration="46781000" />
+    </task>
+    <task id="LOCAL-00001" summary="添加main模块">
+      <created>1661774249446</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661774249446</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加regggle模块">
+      <created>1661817542536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661817542536</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改readme文件">
+      <created>1661818403879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661818403879</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加reggle模块">
+      <created>1661824592695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661824592695</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改reggle模块名">
+      <created>1661828609832</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661828609832</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加main模块" />
+    <MESSAGE value="添加regggle模块" />
+    <MESSAGE value="修改readme文件" />
+    <MESSAGE value="添加reggle模块" />
+    <MESSAGE value="修改reggle模块名" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改reggle模块名" />
+  </component>
+</project>
