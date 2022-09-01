@@ -4,14 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="32f3c755-28c1-4d39-8cd2-5607cbaf0fb6" name="Changes" comment="" />
-=======
     <list default="true" id="32f3c755-28c1-4d39-8cd2-5607cbaf0fb6" name="Changes" comment="添加reggie">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/resources/backend/page/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/resources/backend/page/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/resources/backend/styles/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/resources/backend/styles/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/category/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/combo/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/combo/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/combo/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/food/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/food/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/food/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/food/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/member/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/member/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/member/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/member/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/order/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/page/order/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/styles/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/styles/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/styles/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/styles/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/backend/styles/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/checked_true.png" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/checked_true.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/headPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/headPage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/location.png" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/location.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/locations.png" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/locations.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/mainBg.png" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/mainBg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/money.png" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/money.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/no_order.png" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/no_order.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/no_wifi.png" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/no_wifi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/orders.png" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/orders.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/time.png" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/images/time.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/add-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/add-order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/address-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/address-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/address.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/no-wify.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/no-wify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/pay-success.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/pay-success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/page/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/styles/address-edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/styles/address-edit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/styles/address.css" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/styles/address.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/styles/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/styles/no-wify.css" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/styles/no-wify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/styles/pay-success.css" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/styles/pay-success.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/target/classes/front/styles/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/target/classes/front/styles/user.css" afterDir="false" />
     </list>
->>>>>>> dev_yzw
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,13 +202,6 @@
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.UploadFileTest" />
       <item itemvalue="Spring Boot.ReggieApplication" />
-<<<<<<< HEAD
-      <item itemvalue="Spring Boot.ReggieApplication (1)" />
-      <item itemvalue="Spring Boot.ReggieApplication (2)" />
-      <item itemvalue="Spring Boot.ReggleApplication" />
-      <item itemvalue="Spring Boot.ReggleStart" />
-=======
->>>>>>> dev_yzw
     </list>
     <recent_temporary>
       <list>

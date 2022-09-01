@@ -9974,7 +9974,7 @@ input[type="number"] {
 }
 .el-tag--dark.el-tag--warning .el-tag__close:hover {
   color: #fff;
-  background-color: #ffc235;
+  background-color: #4a98bc;
 }
 .el-tag--dark.el-tag--danger {
   background-color: #f56c6c;
@@ -11231,8 +11231,8 @@ input[type="number"] {
 }
 .el-button--warning:focus,
 .el-button--warning:hover {
-  background: #ffc235;
-  border-color: #ffc235;
+  background: #4a98bc;
+  border-color: #4a98bc;
   color: #fff;
 }
 .el-button--warning.is-active,
@@ -11990,7 +11990,7 @@ input[type="number"] {
   color: #4a98bc;
 }
 .el-link.el-link--warning:hover {
-  color: #ffc235;
+  color: #4a98bc;
 }
 .el-link.el-link--warning.is-disabled {
   color: #ffd981;
