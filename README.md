@@ -8,8 +8,11 @@
 
 #### 使用说明
 
-1.将reggle模块下的application.yml中的数据库模块修为本机配置
-2.需要将application.yml中的reggie.path修改成自己的路径
+1.将reggle模块下的application.yml中的数据库模块修为本机配置 
+
+2.需要将application.yml中的reggie.path修改成自己的路径 
+
 3.本项目中的测试环境验证码部分使用log.info("code={}",code)日志打印
-，用户可以在控制台查看登录，生产环境才使用阿里云短信服务
+，用户可以在控制台查看登录，生产环境才使用阿里云短信服务 
+
 #### 参与贡献
