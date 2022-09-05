@@ -153,7 +153,7 @@ public class EmployeeController {
         log.info("删除员工,id为:{}",id);
 
         if(id==1){
-            return null;
+            return R.error("管理员不可删除，删除失败");
         }
 
         employeeService.removeById(id);
