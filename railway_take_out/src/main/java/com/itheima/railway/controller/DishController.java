@@ -13,6 +13,10 @@ import com.itheima.railway.service.DishService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.cache.annotation.Caching;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
@@ -41,6 +45,12 @@ public class DishController {
      * @return
      */
     @PostMapping
+    @CachePut(value = "dishCache",key = "#dishDto.id")
+    @Caching(evict = {
+            @CacheEvict(value = "dishCache",allEntries = true),
+            @CacheEvict(value = "dishPageCache",allEntries = true),
+            @CacheEvict(value = "dishListCache",allEntries = true)
+    })
     public R<String> save(@RequestBody DishDto dishDto){
         log.info(dishDto.toString());
 
@@ -50,6 +60,11 @@ public class DishController {
     }
 
     @PostMapping("/status/{flag}")
+    @Caching(evict = {
+            @CacheEvict(value = "dishCache",allEntries = true),
+            @CacheEvict(value = "dishPageCache",allEntries = true),
+            @CacheEvict(value = "dishListCache",allEntries = true)
+    })
     public R<String> update(@PathVariable(value = "flag")int falg,@RequestParam(value = "ids") List<Long> ids){
 
         for(int i=0;i<ids.size();i++){
@@ -74,6 +89,11 @@ public class DishController {
      * @return
      */
     @DeleteMapping
+    @Caching(evict = {
+            @CacheEvict(value = "dishCache",allEntries = true),
+            @CacheEvict(value = "dishPageCache",allEntries = true),
+            @CacheEvict(value = "dishListCache",allEntries = true)
+    })
     public R<String>delete(@RequestParam(value = "ids") List<Long> ids){
         log.info("删除菜品,id为:{}",ids);
 
@@ -89,6 +109,7 @@ public class DishController {
      * @return
      */
     @GetMapping("/page")
+    @CacheEvict(value = "dishPageCache",key = "#page+'-'+#pageSize+'-'+#name")
     public R<Page> page(int page,int pageSize,String name){
 
         //构造分页构造器对象
@@ -137,6 +158,7 @@ public class DishController {
      * @return
      */
     @GetMapping("/{id}")
+    @Cacheable(value = "dishCache",key = "#id")
     public R<DishDto> get(@PathVariable Long id){
 
         DishDto dishDto = dishService.getByIdWithFlavor(id);
@@ -150,6 +172,11 @@ public class DishController {
      * @return
      */
     @PutMapping
+    @Caching(evict = {
+            @CacheEvict(value = "dishCache",allEntries = true),
+            @CacheEvict(value = "dishPageCache",allEntries = true),
+            @CacheEvict(value = "dishListCache",allEntries = true)
+    })
     public R<String> update(@RequestBody DishDto dishDto){
         log.info(dishDto.toString());
 
@@ -180,6 +207,7 @@ public class DishController {
     }*/
 
     @GetMapping("/list")
+    @Cacheable(value = "dishListCache",key = "#dish.categoryId")
     public R<List<DishDto>> list(Dish dish){
         //构造查询条件
         LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper<>();

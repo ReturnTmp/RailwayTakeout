@@ -8,15 +8,23 @@ import com.itheima.railway.service.EmployeeService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Set;
 
 @Slf4j
 @RestController
 @RequestMapping("/employee")
 public class EmployeeController {
+
+    @Autowired
+    private RedisTemplate redisTemplate;
 
     @Autowired
     private EmployeeService employeeService;
@@ -77,12 +85,15 @@ public class EmployeeController {
      * @return
      */
     @PostMapping
+    @CachePut(value = "userCache",key = "#employee.id")
+    @CacheEvict(value = "userPageCache",allEntries = true)
     public R<String> save(HttpServletRequest request,@RequestBody Employee employee){
         log.info("新增员工，员工信息：{}",employee.toString());
 
         //设置初始密码123456，需要进行md5加密处理
         employee.setPassword(DigestUtils.md5DigestAsHex("123456".getBytes()));
 
+        //下述字段都是使用MP的公共字段填充
         //employee.setCreateTime(LocalDateTime.now());
         //employee.setUpdateTime(LocalDateTime.now());
 
@@ -93,6 +104,11 @@ public class EmployeeController {
         //employee.setUpdateUser(empId);
 
         employeeService.save(employee);
+
+        //利用redisTemplate实现page的模糊删除
+//        String key="userPageCache*";
+//        Set keys = redisTemplate.keys(key);
+//        redisTemplate.delete(keys);
 
         return R.success("新增员工成功");
     }
@@ -105,6 +121,7 @@ public class EmployeeController {
      * @return
      */
     @GetMapping("/page")
+    @Cacheable(value = "userPageCache",key = "#page+'-'+#pageSize+'-'+#name")
     public R<Page> page(int page,int pageSize,String name){
         log.info("page = {},pageSize = {},name = {}" ,page,pageSize,name);
 
@@ -130,6 +147,7 @@ public class EmployeeController {
      * @return
      */
     @PutMapping
+    @CacheEvict(value = "userCache",key = "#employee.id")
     public R<String> update(HttpServletRequest request,@RequestBody Employee employee){
         log.info(employee.toString());
 
@@ -149,6 +167,7 @@ public class EmployeeController {
      * @return
      */
     @GetMapping("/{id}")
+    @Cacheable(value = "userCache",key = "#id",unless = "#result.code==0")
     public R<Employee> getById(@PathVariable Long id){
         log.info("根据id查询员工信息...");
         Employee employee = employeeService.getById(id);

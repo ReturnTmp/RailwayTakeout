@@ -10,6 +10,20 @@ spring:
       url: jdbc:mysql://localhost:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       username: root
       password: 111111
+  redis:
+    # redis 的 IP 地址
+    host: hadoop128
+    # redis的端口
+    port: 6379
+    # 使用redis的数据库0
+    database: 0
+  # spring cache的使用
+  cache:
+    # 指定使用的缓存类型
+    type: redis
+    #设置过期时间
+    redis:
+      time-to-live: 1800000
 mybatis-plus:
   configuration:
     #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射

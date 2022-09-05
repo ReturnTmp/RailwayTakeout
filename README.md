@@ -8,7 +8,7 @@
 
 #### 使用说明
 
-1.将reggle模块下的application.yml中的数据库模块修为本机配置 
+1.将reggle模块下的application.yml中的mysql数据库和redis缓存模块修改为本机配置 
 
 2.需要将application.yml中的reggie.path修改成自己的路径 
 
