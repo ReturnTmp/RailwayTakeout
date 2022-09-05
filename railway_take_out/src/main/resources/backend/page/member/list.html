@@ -215,6 +215,8 @@
                 if (String(res.code) === '1') {
                   this.$message.success('账号状态更改成功！')
                   this.handleQuery()
+                }else {
+                  this.$message.error(res.msg || '操作失败')
                 }
               }).catch(err => {
                 this.$message.error('请求出错了：' + err)
