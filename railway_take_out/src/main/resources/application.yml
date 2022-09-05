@@ -33,8 +33,4 @@ mybatis-plus:
     db-config:
       id-type: ASSIGN_ID
 reggie:
-<<<<<<< HEAD
   path: railway_take_out/src/main/resources/Image/
-=======
-  path: D:\Image\
->>>>>>> master
