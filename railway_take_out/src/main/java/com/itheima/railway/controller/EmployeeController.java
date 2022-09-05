@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.cache.annotation.Caching;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
@@ -85,8 +86,8 @@ public class EmployeeController {
      * @return
      */
     @PostMapping
-    @CachePut(value = "userCache",key = "#employee.id")
-    @CacheEvict(value = "userPageCache",allEntries = true)
+    @CachePut(value = "employeeCache",key = "#employee.id")
+    @CacheEvict(value = "employeePageCache",allEntries = true)
     public R<String> save(HttpServletRequest request,@RequestBody Employee employee){
         log.info("新增员工，员工信息：{}",employee.toString());
 
@@ -121,7 +122,7 @@ public class EmployeeController {
      * @return
      */
     @GetMapping("/page")
-    @Cacheable(value = "userPageCache",key = "#page+'-'+#pageSize+'-'+#name")
+    @Cacheable(value = "employeePageCache",key = "#page+'-'+#pageSize+'-'+#name")
     public R<Page> page(int page,int pageSize,String name){
         log.info("page = {},pageSize = {},name = {}" ,page,pageSize,name);
 
@@ -147,7 +148,7 @@ public class EmployeeController {
      * @return
      */
     @PutMapping
-    @CacheEvict(value = "userCache",key = "#employee.id")
+    @CacheEvict(value = "employeeCache",key = "#employee.id")
     public R<String> update(HttpServletRequest request,@RequestBody Employee employee){
         log.info(employee.toString());
 
@@ -167,6 +168,10 @@ public class EmployeeController {
      * @return
      */
     @DeleteMapping
+    @Caching(evict = {
+            @CacheEvict(value = "employeeCache",key = "#id"),
+            @CacheEvict(value = "employeePageCache",allEntries = true)
+    })
     public R<String> delete(Long id){
         log.info("删除员工,id为:{}",id);
 
