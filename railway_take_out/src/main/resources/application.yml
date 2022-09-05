@@ -12,7 +12,7 @@ spring:
       password: 111111
   redis:
     # redis 的 IP 地址
-    host: hadoop128
+    host: localhost
     # redis的端口
     port: 6379
     # 使用redis的数据库0
