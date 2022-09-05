@@ -7,6 +7,7 @@ import com.itheima.railway.entity.Category;
 import com.itheima.railway.service.CategoryService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CachePut;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -27,6 +28,7 @@ public class CategoryController {
      * @return
      */
     @PostMapping
+//    @CachePut(value = "categoryCache",key = "#category.id")
     public R<String> save(@RequestBody Category category){
         log.info("category:{}",category);
         categoryService.save(category);
