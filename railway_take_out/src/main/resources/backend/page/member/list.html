@@ -75,7 +75,7 @@
               size="small"
               class="blueBug"
               @click="addMemberHandle(scope.row.id)"
-              :class="{notAdmin:user !== 'admin'}"
+              v-if="user === 'admin'"
             >
               编辑
             </el-button>
@@ -87,6 +87,15 @@
               v-if="user === 'admin'"
             >
               {{ scope.row.status == '1' ? '禁用' : '启用' }}
+            </el-button>
+            <el-button
+              type="text"
+              size="small"
+              class="delBut non"
+              @click="deleteHandle(scope.row.id)"
+              v-if="user === 'admin'"
+            >
+              删除
             </el-button>
           </template>
         </el-table-column>
@@ -171,6 +180,27 @@
               },true)
             }
           },
+
+          // 删除
+          deleteHandle(id) {
+            this.$confirm('确认删除该员工, 是否继续?', '确定删除', {
+              'confirmButtonText': '确定',
+              'cancelButtonText': '取消',
+              'type': 'warning'
+            }).then(() => {
+              deleteEmployee(id).then(res => {
+                if (res.code === 1) {
+                  this.$message.success('删除成功！')
+                  this.handleQuery()
+                } else {
+                  this.$message.error(res.msg || '操作失败')
+                }
+              }).catch(err => {
+                this.$message.error('请求出错了：' + err)
+              })
+            })
+          },
+
           //状态修改
           statusHandle (row) {
             this.id = row.id

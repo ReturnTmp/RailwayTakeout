@@ -33,6 +33,16 @@ function editEmployee (params) {
   })
 }
 
+// 删除员工
+const deleteEmployee = (id) => {
+  return $axios({
+    url: '/employee',
+    method: 'delete',
+    params: { id }
+  })
+}
+
+
 // 修改页面反查详情接口
 function queryEmployeeById (id) {
   return $axios({

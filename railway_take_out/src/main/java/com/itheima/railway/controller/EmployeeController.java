@@ -162,6 +162,23 @@ public class EmployeeController {
     }
 
     /**
+     * 根据id删除员工
+     * @param id
+     * @return
+     */
+    @DeleteMapping
+    public R<String> delete(Long id){
+        log.info("删除员工,id为:{}",id);
+
+        if(id==1){
+            return R.error("管理员不可删除，删除失败");
+        }
+
+        employeeService.removeById(id);
+        return R.success("员工信息删除成功");
+    }
+
+    /**
      * 根据id查询员工信息
      * @param id
      * @return
