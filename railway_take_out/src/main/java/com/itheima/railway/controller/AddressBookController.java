@@ -31,8 +31,8 @@ public class AddressBookController {
      * 新增
      */
     @PostMapping
-    @CachePut(value = "addressBookCache",key = "#addressBook.id")
-    @CacheEvict(value = "addressBookCache",allEntries = true)
+//    @CachePut(value = "addressBookCache",key = "#addressBook.id")
+//    @CacheEvict(value = "addressBookCache",allEntries = true)
     public R<AddressBook> save(@RequestBody AddressBook addressBook) {
         addressBook.setUserId(BaseContext.getCurrentId());
         log.info("addressBook:{}", addressBook);
@@ -44,7 +44,7 @@ public class AddressBookController {
      * 设置默认地址
      */
     @PutMapping("default")
-    @CachePut(value = "addressBookDefaultCache")
+//    @CachePut(value = "addressBookDefaultCache")
     public R<AddressBook> setDefault(@RequestBody AddressBook addressBook) {
         log.info("addressBook:{}", addressBook);
         LambdaUpdateWrapper<AddressBook> wrapper = new LambdaUpdateWrapper<>();
@@ -63,7 +63,7 @@ public class AddressBookController {
      * 根据id查询地址
      */
     @GetMapping("/{id}")
-    @Cacheable(value = "addressBookCache",key = "#id",unless = "#result.code==0")
+//    @Cacheable(value = "addressBookCache",key = "#id",unless = "#result.code==0")
     public R get(@PathVariable Long id) {
         AddressBook addressBook = addressBookService.getById(id);
         if (addressBook != null) {
@@ -77,7 +77,7 @@ public class AddressBookController {
      * 查询默认地址
      */
     @GetMapping("default")
-    @Cacheable(value = "addressBookDefaultCache")
+//    @Cacheable(value = "addressBookDefaultCache")
     public R<AddressBook> getDefault() {
         LambdaQueryWrapper<AddressBook> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.eq(AddressBook::getUserId, BaseContext.getCurrentId());
@@ -97,7 +97,7 @@ public class AddressBookController {
      * 查询指定用户的全部地址
      */
     @GetMapping("/list")
-    @Cacheable(value = "addressBookCache",key = "#addressBook.id+'-'+#addressBook.userId")
+//    @Cacheable(value = "addressBookCache",key = "#addressBook.id+'-'+#addressBook.userId")
     public R<List<AddressBook>> list(AddressBook addressBook) {
         addressBook.setUserId(BaseContext.getCurrentId());
         log.info("addressBook:{}", addressBook);
