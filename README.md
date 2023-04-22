@@ -43,10 +43,3 @@
 1.application.yml中的redis和两个mysql数据库中的配置需要更换为本机配置，其中两个mysql需配置主从复制
 
 2.在mysql主库中创建railway的schame，并在该schame中运行/resources/sql/railway.sql
-
-
-#### 参与贡献
-- 程广浩 
-- 叶卓维
-- 幸俊杰
-- 吕卓俊
